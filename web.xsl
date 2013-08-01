@@ -36,45 +36,65 @@
     </html>
   </xsl:template>
   <xsl:template match="/GOODS/GOOD">
-    <xsl:value-of select="Active/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="Key/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="Level/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="SubKey/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="Shopkeeper/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="Occupation/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="BaseMultiplier/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="BaseValue/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="NumIngredients/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="RecipeValueMultiplier/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="Value/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:apply-templates select="CraftingRecipe/Good"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="CraftingRecipe/Value/Total/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="UsedInOtherRecipes/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="AllowJunk/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="MinorUpgradeDesc/SkillPoints/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:apply-templates select="MinorUpgradeDesc/Entry"/>
-    <xsl:value-of select="','"/>
-    <xsl:value-of select="MajorUpgradeDesc/SkillPoints/@value"/>
-    <xsl:value-of select="','"/>
-    <xsl:apply-templates select="MajorUpgradeDesc/Entry"/>
-    <xsl:text xml:space="preserve">
-</xsl:text>
+    <tr>
+      <td>
+        <xsl:value-of select="Active/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="Key/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="Level/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="SubKey/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="Shopkeeper/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="Occupation/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="BaseMultiplier/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="BaseValue/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="NumIngredients/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="RecipeValueMultiplier/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="Value/@value"/>
+      </td>
+      <td>
+        <xsl:apply-templates select="CraftingRecipe/Good"/>
+      </td>
+      <td>
+        <xsl:value-of select="CraftingRecipe/Value/Total/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="UsedInOtherRecipes/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="AllowJunk/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="MinorUpgradeDesc/SkillPoints/@value"/>
+      </td>
+      <td>
+        <xsl:apply-templates select="MinorUpgradeDesc/Entry"/>
+      </td>
+      <td>
+        <xsl:value-of select="MajorUpgradeDesc/SkillPoints/@value"/>
+      </td>
+      <td>
+        <xsl:apply-templates select="MajorUpgradeDesc/Entry"/>
+      </td>
+    </tr>
   </xsl:template>
   <xsl:template match="/GOODS/GOOD/CraftingRecipe/Good">
     <xsl:value-of select="@value"/>

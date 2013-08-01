@@ -1,1 +1,1 @@
-redo-ifchange goods.csv
+redo-ifchange goods.csv goods.html
