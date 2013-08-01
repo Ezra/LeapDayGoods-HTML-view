@@ -5,10 +5,12 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>LeapDayGoods HTML</title>
-        <link href="http://static.zoll.me/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="http://static.zoll.me/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="http://static.zoll.me/compress/css/4cac45a213b3.css" type="text/css"/>
+        <title>Leap Day Temporary Recipedia</title>
+        <link href="webfiles/bootstrap.min.css" rel="stylesheet"/>
+        <link href="webfiles/bootstrap-responsive.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="webfiles/basic.css" type="text/css"/>
+        <link rel="stylesheet" href="webfiles/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="webfiles/leapday-goods-icon.css" type="text/css"/>
       </head>
       <body>
         <div class="page-header">

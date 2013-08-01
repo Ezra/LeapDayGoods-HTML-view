@@ -1,6 +1,6 @@
 .leapday-goods-icon {
   display: inline-block;
-  background-image: url('../img/leapday-goods-icon-ffffff.png');
+  background-image: url('leapday-goods-icon-ffffff.png');
   background-repeat: no-repeat;
   /*height: 54px;
   width: 45px;*/
@@ -20,12 +20,12 @@
 
 .table-striped tbody > tr:nth-child(odd) > td .leapday-goods-icon,
 .table-striped tbody > tr:nth-child(odd) > th .leapday-goods-icon {
-    background-image: url('../img/leapday-goods-icon-f9f9f9.png');
+    background-image: url('leapday-goods-icon-f9f9f9.png');
 }
 
 .table-hover tbody > tr:hover > td .leapday-goods-icon,
 .leapday-goods-icon-hover {
-	background-image: url('../img/leapday-goods-icon-ffffcc.png');
+	background-image: url('leapday-goods-icon-ffffcc.png');
 }
 
 .leapday-goods-icon-other {
