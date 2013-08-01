@@ -1,2 +1,2 @@
-redo-ifchange "web.xsl" "LeapDayGoods.xml"
-xsltproc "web.xsl" "LeapDayGoods.xml"
+redo-ifchange "goods.html.do.xsl" "LeapDayGoods.xml"
+xsltproc "goods.html.do.xsl" "LeapDayGoods.xml"
