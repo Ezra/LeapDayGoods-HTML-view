@@ -1,0 +1,3 @@
+finish initial web.xsl
+make images pull correctly out of sprite sheet instead of check in separately
+maybe auto-pull?
