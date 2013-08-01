@@ -106,6 +106,26 @@ table td.no-border-left, table th.no-border-left {
 	}
 }
 
+#minor-colgroup, .minor-column {
+	display: none;
+}
+
+@media (min-width: 1055px) {
+	#minor-colgroup, .minor-column {
+		display: table-cell;
+	}
+}
+
+#major-colgroup, .major-column {
+	display: none;
+}
+
+@media (min-width: 950px) {
+	#major-colgroup, .major-column {
+		display: table-cell;
+	}
+}
+
 #base-material-colgroup, .base-material-column {
 	display: none;
 }
@@ -145,11 +165,19 @@ table#recipeTable .value-column {
 }
 
 table#recipeTable .recipe-column {
-	 width: 235px;
+	 width: 286px;
 }
 
 table#recipeTable td.recipe-column {
 	 text-align: center;
+}
+
+table#recipeTable .minor-column {
+	 width: 90px;
+}
+
+table#recipeTable .major-column {
+	 width: 234px;
 }
 
 table#recipeTable .base-material-column {
