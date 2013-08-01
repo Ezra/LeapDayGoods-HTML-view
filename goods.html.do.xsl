@@ -11,27 +11,31 @@
         <link rel="stylesheet" href="http://static.zoll.me/compress/css/4cac45a213b3.css" type="text/css"/>
       </head>
       <body>
+        <div class="page-header">
+          <h1>Leap Day Temporary Recipedia</h1>
+        </div>
         <table id="recipeTable" class="table table-condensed table-striped table-bordered table-hover">
+          <colgroup id="item-colgroup">
+            <col/>
+          </colgroup>
+          <colgroup id="value-colgroup">
+            <col/>
+            <col/>
+          </colgroup>
+          <colgroup id="recipe-colgroup">
+            <col/>
+          </colgroup>
+          <colgroup id="base-material-colgroup">
+            <col/>
+            <col/>
+          </colgroup>
           <tr>
-            <th>Active</th>
-            <th>Key</th>
-            <th>Level</th>
-            <th>SubKey</th>
-            <th>Shopkeeper</th>
-            <th>Occupation</th>
-            <th>BaseMultiplier</th>
-            <th>BaseValue</th>
-            <th>NumIngredients</th>
-            <th>RecipeValueMultiplier</th>
-            <th>Value</th>
-            <th>CraftingRecipe/Good/...</th>
-            <th>CraftingRecipe/Value/Total</th>
-            <th>UsedInOtherRecipes</th>
-            <th>AllowJunk</th>
-            <th>MinorUpgradeDesc/SkillPoints</th>
-            <th>MinorUpgradeDesc/Entry/...</th>
-            <th>MajorUpgradeDesc/SkillPoints</th>
-            <th>MajorUpgradeDesc/Entry/...</th>
+            <th class="item-column">Item</th>
+            <th class="value-column">Value</th>
+            <th class="">Mult</th>
+            <th class="recipe-column">Recipe</th>
+            <th class="">Minor Cost</th>
+            <th class="">Major Cost</th>
           </tr>
           <xsl:apply-templates select="/GOODS/GOOD"/>
         </table>
@@ -40,59 +44,35 @@
   </xsl:template>
   <xsl:template match="/GOODS/GOOD[Active/@value='TRUE']">
     <tr>
-      <td>
-        <xsl:value-of select="Active/@value"/>
-      </td>
-      <td>
+      <td class="item-column">
+        <i data-toggle="tooltip">
+          <xsl:attribute name="title">Black Heart</xsl:attribute>
+          <xsl:attribute name="class">tooltip-icon leapday-goods-icon leapday-goods-icon-black-heart</xsl:attribute>
+        </i>
         <xsl:value-of select="Key/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="Level/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="SubKey/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="Shopkeeper/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="Occupation/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="BaseMultiplier/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="BaseValue/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="NumIngredients/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="RecipeValueMultiplier/@value"/>
+        <br/>
+        <h4>
+          <xsl:text>Level </xsl:text>
+          <xsl:value-of select="Level/@value"/>
+        </h4>
       </td>
       <td>
         <xsl:value-of select="Value/@value"/>
       </td>
       <td>
+        <xsl:value-of select="RecipeValueMultiplier/@value"/>
+      </td>
+      <td>
+        <xsl:value-of select="NumIngredients/@value"/>
+        <xsl:text> ingredients</xsl:text>
+        <br/>
         <xsl:apply-templates select="CraftingRecipe/Good"/>
-      </td>
-      <td>
-        <xsl:value-of select="CraftingRecipe/Value/Total/@value"/>
-      </td>
-      <td>
-        <xsl:value-of select="UsedInOtherRecipes/@value"/>
-      </td>
-      <td>
+        <br/>
+        <xsl:text>Junk? </xsl:text>
         <xsl:value-of select="AllowJunk/@value"/>
       </td>
       <td>
-        <xsl:value-of select="MinorUpgradeDesc/SkillPoints/@value"/>
-      </td>
-      <td>
         <xsl:apply-templates select="MinorUpgradeDesc/Entry"/>
-      </td>
-      <td>
-        <xsl:value-of select="MajorUpgradeDesc/SkillPoints/@value"/>
       </td>
       <td>
         <xsl:apply-templates select="MajorUpgradeDesc/Entry"/>
