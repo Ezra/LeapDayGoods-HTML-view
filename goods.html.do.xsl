@@ -34,10 +34,10 @@
           <tr>
             <th class="item-column">Item</th>
             <th class="value-column">Value</th>
-            <th class="">Mult</th>
+            <th class="value-column">Mult</th>
             <th class="recipe-column">Recipe</th>
-            <th class="">Minor Cost</th>
-            <th class="">Major Cost</th>
+            <th class="base-material-column">Minor Cost</th>
+            <th class="base-material-column">Major Cost</th>
           </tr>
           <xsl:apply-templates select="/GOODS/GOOD"/>
         </table>
@@ -48,30 +48,33 @@
     <tr>
       <td class="item-column">
         <i data-toggle="tooltip">
-          <xsl:attribute name="title">Black Heart</xsl:attribute>
-          <xsl:attribute name="class">tooltip-icon leapday-goods-icon leapday-goods-icon-black-heart</xsl:attribute>
+          <xsl:attribute name="title">
+            <xsl:value-of select="Key/@value"/>
+          </xsl:attribute>
+          <xsl:attribute name="class">tooltip-icon leapday-goods-icon leapday-goods-icon-<xsl:value-of select="Key/@value"/></xsl:attribute>
         </i>
-        <xsl:value-of select="Key/@value"/>
-        <br/>
         <h4>
+          <xsl:value-of select="Key/@value"/>
+          <br/>
           <xsl:text>Level </xsl:text>
           <xsl:value-of select="Level/@value"/>
         </h4>
       </td>
-      <td>
-        <xsl:value-of select="Value/@value"/>
+      <td class="value-column">
+        <span>
+          <xsl:value-of select="Value/@value"/>
+        </span>
       </td>
-      <td>
+      <td class="value-column">
+        <span>
         <xsl:value-of select="RecipeValueMultiplier/@value"/>
+        </span>
       </td>
-      <td>
-        <xsl:value-of select="NumIngredients/@value"/>
-        <xsl:text> ingredients</xsl:text>
-        <br/>
+      <td class="recipe-column">
+		<xsl:if test="AllowJunk/@value = 'TRUE'">
+        <xsl:text>Allow Junk</xsl:text>
+		</xsl:if>
         <xsl:apply-templates select="CraftingRecipe/Good"/>
-        <br/>
-        <xsl:text>Junk? </xsl:text>
-        <xsl:value-of select="AllowJunk/@value"/>
       </td>
       <td>
         <xsl:apply-templates select="MinorUpgradeDesc/Entry"/>
