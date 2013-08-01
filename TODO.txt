@@ -1,4 +1,4 @@
-make images pull correctly out of sprite sheet instead of check in separately
-eventually maybe auto-pull for web?
-steal the shit out of https://github.com/Zerack/zoll.me/tree/master/leapday/static/leapday/css and friends
+do images right
+store css, images locally, not on zoll
 provide attributions in LICENSE and on web
+eventually maybe auto-pull for web?

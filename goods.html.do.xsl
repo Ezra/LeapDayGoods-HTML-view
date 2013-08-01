@@ -6,9 +6,12 @@
     <html>
       <head>
         <title>LeapDayGoods HTML</title>
+        <link href="http://static.zoll.me/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="http://static.zoll.me/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="http://static.zoll.me/compress/css/4cac45a213b3.css" type="text/css"/>
       </head>
       <body>
-        <table>
+        <table id="recipeTable" class="table table-condensed table-striped table-bordered table-hover">
           <tr>
             <th>Active</th>
             <th>Key</th>
@@ -35,7 +38,7 @@
       </body>
     </html>
   </xsl:template>
-  <xsl:template match="/GOODS/GOOD">
+  <xsl:template match="/GOODS/GOOD[Active/@value='TRUE']">
     <tr>
       <td>
         <xsl:value-of select="Active/@value"/>
@@ -96,16 +99,16 @@
       </td>
     </tr>
   </xsl:template>
-  <xsl:template match="/GOODS/GOOD/CraftingRecipe/Good">
+  <xsl:template match="/GOODS/GOOD[Active/@value='TRUE']/CraftingRecipe/Good">
     <xsl:value-of select="@value"/>
     <xsl:value-of select="' + '"/>
   </xsl:template>
-  <xsl:template match="/GOODS/GOOD/MinorUpgradeDesc/Entry">
+  <xsl:template match="/GOODS/GOOD[Active/@value='TRUE']/MinorUpgradeDesc/Entry">
     <xsl:value-of select="Num/@value"/>
     <xsl:value-of select="'x '"/>
     <xsl:value-of select="Key/@value"/>
   </xsl:template>
-  <xsl:template match="/GOODS/GOOD/MajorUpgradeDesc/Entry">
+  <xsl:template match="/GOODS/GOOD[Active/@value='TRUE']/MajorUpgradeDesc/Entry">
     <xsl:value-of select="Num/@value"/>
     <xsl:value-of select="'x '"/>
     <xsl:value-of select="Key/@value"/>
