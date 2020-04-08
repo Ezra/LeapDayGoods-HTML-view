@@ -1,0 +1,2547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <GOODS>
+    <GOOD>
+      <Key value="good_junk" />
+      <Type value="goodtype_basic" />
+      <DisplayName value="Junk" />
+      <Tier value="3" />
+      <BaseMultiplier value="1" />
+      <BaseValue value="10" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="10" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Wrong ingredients in.  Junk come out.  If only you used the Recipedia..." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_food" />
+      <Type value="goodtype_basic" />
+      <DisplayName value="Food" />
+      <Tier value="1" />
+      <BaseMultiplier value="1" />
+      <BaseValue value="10" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="10" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <SellPrice>
+        <Currency>
+          <Num value="2" />
+          <Type value="Gold" />
+        </Currency>
+      </SellPrice>
+      <StackLimit value="500" />
+      <Active value="TRUE" />
+      <Description value="A bulbous protein rich berry.  Clever monkeys can cook it into almost any yummy delicacy. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_wood" />
+      <Type value="goodtype_basic" />
+      <DisplayName value="Wood" />
+      <Tier value="1" />
+      <BaseMultiplier value="1.5" />
+      <BaseValue value="15" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="15" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <SellPrice>
+        <Currency>
+          <Num value="1" />
+          <Type value="Gold" />
+        </Currency>
+      </SellPrice>
+      <StackLimit value="100" />
+      <Active value="TRUE" />
+      <Description value="Once, the living trunk of a majestic tree.  Now dead. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_water" />
+      <Type value="goodtype_basic" />
+      <DisplayName value="Water" />
+      <Tier value="1" />
+      <BaseMultiplier value="0.5" />
+      <BaseValue value="5" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="5" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <SellPrice>
+        <Currency>
+          <Num value="15" />
+          <Type value="Gold" />
+        </Currency>
+      </SellPrice>
+      <StackLimit value="100" />
+      <Active value="TRUE" />
+      <Description value="Cool clear pond water.  Scum free! " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_stone" />
+      <Type value="goodtype_basic" />
+      <DisplayName value="Stone" />
+      <Tier value="1" />
+      <BaseMultiplier value="1.8" />
+      <BaseValue value="18" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="18" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <SellPrice>
+        <Currency>
+          <Num value="3" />
+          <Type value="Gold" />
+        </Currency>
+      </SellPrice>
+      <StackLimit value="100" />
+      <Active value="TRUE" />
+      <Description value="Rough stone from a local mountain. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_barrel" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Barrel" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="1" />
+      <RecipeValueMultiplier value="3.2" />
+      <Value value="16" />
+      <CraftingRecipe>
+        <Good value="good_water" />
+        <Value>
+          <Total value="5" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Stout and full of water. You can shoot fish in it. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_oak" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Oak" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="1" />
+      <RecipeValueMultiplier value="3.2" />
+      <Value value="48" />
+      <CraftingRecipe>
+        <Good value="good_wood" />
+        <Value>
+          <Total value="15" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A hard wood that has lived a hard life.  Misses its baby acorns." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_bread" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Bread" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="1" />
+      <RecipeValueMultiplier value="3.2" />
+      <Value value="32" />
+      <CraftingRecipe>
+        <Good value="good_food" />
+        <Value>
+          <Total value="10" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Fresh, hot loafs right out of the oven.  Try slices dribbled with honey and melted butter." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_bricks" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Bricks" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="1" />
+      <RecipeValueMultiplier value="3" />
+      <Value value="54" />
+      <CraftingRecipe>
+        <Good value="good_stone" />
+        <Value>
+          <Total value="18" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The finest red clay bricks this side of Greater Flandon. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_spirits" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Spirits" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="38" />
+      <CraftingRecipe>
+        <Good value="good_water" />
+        <Good value="good_food" />
+        <Value>
+          <Total value="15" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Distilled berries yield a harsh liquor that puts hair in places you really don't want hair. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_lumber" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Lumber" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="50" />
+      <CraftingRecipe>
+        <Good value="good_water" />
+        <Good value="good_wood" />
+        <Value>
+          <Total value="20" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Planks hand-planed by an elderly master craftsman.  Each wood shaving is so fine you can see the sunset shine through. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_perfume" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Perfume" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="63" />
+      <CraftingRecipe>
+        <Good value="good_food" />
+        <Good value="good_wood" />
+        <Value>
+          <Total value="25" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Dab a little of this under your chin and the flan come runnin' " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_gems" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Polished Gems" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="58" />
+      <CraftingRecipe>
+        <Good value="good_stone" />
+        <Good value="good_water" />
+        <Value>
+          <Total value="23" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Sparkly bits of glitter cut with a water wheel. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_stew" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Stew" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="75" />
+      <CraftingRecipe>
+        <Good value="good_food" />
+        <Good value="good_water" />
+        <Good value="good_wood" />
+        <Value>
+          <Total value="30" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Savory stew made from roots, sausage and your mother's soupy secrets. The steam fogs your glasses." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_ore" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Ore" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="66" />
+      <CraftingRecipe>
+        <Good value="good_wood" />
+        <Good value="good_stone" />
+        <Value>
+          <Total value="33" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Fractured stone under great heat reveals a metallic core. Ore! Go forth and forge a vast industry!" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_spices" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Spices" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="56" />
+      <CraftingRecipe>
+        <Good value="good_stone" />
+        <Good value="good_food" />
+        <Value>
+          <Total value="28" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The nubby petals, when ground in a Flannish mortar, produce a red powder that sets the senses aflame. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_glass" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Glass" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="95" />
+      <CraftingRecipe>
+        <Good value="good_water" />
+        <Good value="good_wood" />
+        <Good value="good_stone" />
+        <Value>
+          <Total value="38" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Twelve parts sand, three parts trona, two parts lime. Brought to a bubble and then made into church windows. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_cookedfood" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Cooked Food" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="108" />
+      <CraftingRecipe>
+        <Good value="good_wood" />
+        <Good value="good_stone" />
+        <Good value="good_food" />
+        <Value>
+          <Total value="43" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The home cooked meal you miss so much." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_flour" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Flour" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="83" />
+      <CraftingRecipe>
+        <Good value="good_stone" />
+        <Good value="good_food" />
+        <Good value="good_water" />
+        <Value>
+          <Total value="33" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A white fruit-based flour used for baking.  Also fun to jump into and pretend you are a ghost. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_mana" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Mana" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="4" />
+      <RecipeValueMultiplier value="6" />
+      <Value value="288" />
+      <CraftingRecipe>
+        <Good value="good_food" />
+        <Good value="good_wood" />
+        <Good value="good_stone" />
+        <Good value="good_water" />
+        <Value>
+          <Total value="48" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Food of the gods.  The gods unfortunately were machines, so consuming mana tends to make one's tongue blister. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_mulledwine" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Mulled Wine" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="188" />
+      <CraftingRecipe>
+        <Good value="good_spices" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="94" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="An intoxicating staple of winter nights spent with friends 'round a table full of food and song. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_shrines" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Shrines" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="176" />
+      <CraftingRecipe>
+        <Good value="good_lumber" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="88" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Items of worship mass produced for mass. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_potionofdeath" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Potion of Death" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="258" />
+      <CraftingRecipe>
+        <Good value="good_perfume" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="129" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A poisonous beverage favored by ex-lovers and spiteful goldfish owners. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_potionofjoy" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Potion of Joy" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="202" />
+      <CraftingRecipe>
+        <Good value="good_perfume" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="101" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Love in a bottle.  Sold in bulk to certified therapists. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_potionoflife" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Potion of Life" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="238" />
+      <CraftingRecipe>
+        <Good value="good_perfume" />
+        <Good value="good_spices" />
+        <Value>
+          <Total value="119" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Each flask contains a guaranteed five additional minutes of life.  Drink slowly to avoid exploding. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_jewelry" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Jewelry" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="248" />
+      <CraftingRecipe>
+        <Good value="good_gems" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="124" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="These baubles cling to the curve of your breast. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_idols" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Idols" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="212" />
+      <CraftingRecipe>
+        <Good value="good_spices" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="106" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Small statuettes that contain a false bottom for hiding sacrilegious items. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_gunpowder" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Gunpowder" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="208" />
+      <CraftingRecipe>
+        <Good value="good_spirits" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="104" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A black powder used in fireworks and other celebratory activities. Like the upcoming purge of the Queen's enemies. " />
+    </GOOD>
+    <GOOD>
+      <Key value="goodtype_crystal" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Crystal" />
+      <Tier value="4" />
+      <BaseMultiplier value="4" />
+      <BaseValue value="40" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="40" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Crystals will change type when in a prince's territory. The type of gem is different for each prince." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_onyx" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Onyx" />
+      <Tier value="1" />
+      <BaseMultiplier value="4" />
+      <BaseValue value="40" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="40" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A banded variety of chalcedony.  Ha! You are now smarter than your brother. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_jade" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Jade" />
+      <Tier value="1" />
+      <BaseMultiplier value="4" />
+      <BaseValue value="40" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="40" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A green stone that reminds this scholar of your aunt's eyes on that summer dawn." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_opal" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Opal" />
+      <Tier value="1" />
+      <BaseMultiplier value="4" />
+      <BaseValue value="40" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="40" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A shimmering gem of many colors.  This one happens to be of the rare non-Australian variety" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_amber" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Amber" />
+      <Tier value="1" />
+      <BaseMultiplier value="4" />
+      <BaseValue value="40" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="40" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Fossilized sap. Occasionally pieces contain dead bugs and eternal memories. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_silver" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Silver" />
+      <Tier value="1" />
+      <BaseMultiplier value="4" />
+      <BaseValue value="40" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="40" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A metal that is deeply jealous of gold and all the love it gets.  Sometimes found crying itself to sleep." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_diamond" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Diamond" />
+      <Tier value="1" />
+      <BaseMultiplier value="4.5" />
+      <BaseValue value="45" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="45" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Diamonds are what happens when you squeeze a tree really tightly. Quite rare due to the Purge of the Tree Squeezers in 40 AD. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_sapphire" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Sapphire" />
+      <Tier value="1" />
+      <BaseMultiplier value="5" />
+      <BaseValue value="50" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="50" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A diamond dipped in blue dye" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_ruby" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Ruby" />
+      <Tier value="1" />
+      <BaseMultiplier value="6" />
+      <BaseValue value="60" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="60" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Long ago jewelers sacrificed miniature goats to turn stones red. If you hold a ruby up to your ear, you just might be able to hear the bleating. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_amethyst" />
+      <Type value="goodtype_crystal" />
+      <DisplayName value="Amethyst" />
+      <Tier value="1" />
+      <BaseMultiplier value="4" />
+      <BaseValue value="40" />
+      <NumIngredients value="0" />
+      <RecipeValueMultiplier value="0" />
+      <Value value="40" />
+      <CraftingRecipe>
+        <Value>
+          <Total value="0" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="No one likes amethyst.  " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_rings" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Rings" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="4" />
+      <Value value="320" />
+      <CraftingRecipe>
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Value>
+          <Total value="80" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A band wrought of precious materials.  It speaks of a promise not always kept. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_necklace" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Necklace" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="4" />
+      <Value value="480" />
+      <CraftingRecipe>
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Value>
+          <Total value="120" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Necklaces are armor that lay bare our humdrum visage when removed.  Invaluable." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_shields" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Shields" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="4" />
+      <RecipeValueMultiplier value="5" />
+      <Value value="800" />
+      <CraftingRecipe>
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Value>
+          <Total value="160" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A polished shield perfect for hanging on walls in order to pretend that you are manly. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_hammers" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Hammers" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="5" />
+      <Value value="1000" />
+      <CraftingRecipe>
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Value>
+          <Total value="200" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Long of shaft and thick of head, these are not intended to be used on drums. The drum maker is very angry. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_swords" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Swords" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="6" />
+      <RecipeValueMultiplier value="6" />
+      <Value value="1680" />
+      <CraftingRecipe>
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Value>
+          <Total value="280" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="FALSE" />
+      <Description value="Snicker snack!  A blade capable of severing a variety of cheeses and cutlets when one feels peckish. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_sceptre" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Sceptre" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="7" />
+      <RecipeValueMultiplier value="6" />
+      <Value value="1920" />
+      <CraftingRecipe>
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Value>
+          <Total value="320" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="FALSE" />
+      <Description value="Princes collect scepters much as your or I might collect shoes." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_amulet" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Amulet" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="8" />
+      <RecipeValueMultiplier value="4" />
+      <Value value="1440" />
+      <CraftingRecipe>
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Value>
+          <Total value="360" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="FALSE" />
+      <Description value="Protection from spirits and hauntings.  It never seems to work out as promised in the literature. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_crowns" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Crowns" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="9" />
+      <RecipeValueMultiplier value="4" />
+      <Value value="1440" />
+      <CraftingRecipe>
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Good value="goodtype_crystal" />
+        <Value>
+          <Total value="360" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="FALSE" />
+      <Description value="The heavy burden of leadership built to rest upon a furrowed brow. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_largebarrel" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Large Barrel" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="3" />
+      <Value value="75" />
+      <CraftingRecipe>
+        <Good value="good_water" />
+        <Good value="good_water" />
+        <Good value="good_water" />
+        <Good value="good_water" />
+        <Good value="good_water" />
+        <Value>
+          <Total value="25" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="When a standard sized barrel just isn't enough. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_blackoak" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Black Oak" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="188" />
+      <CraftingRecipe>
+        <Good value="good_wood" />
+        <Good value="good_wood" />
+        <Good value="good_wood" />
+        <Good value="good_wood" />
+        <Good value="good_wood" />
+        <Value>
+          <Total value="75" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The oak preferred by pirates and brigands. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_blackbread" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Black Bread" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="3" />
+      <Value value="150" />
+      <CraftingRecipe>
+        <Good value="good_food" />
+        <Good value="good_food" />
+        <Good value="good_food" />
+        <Good value="good_food" />
+        <Good value="good_food" />
+        <Value>
+          <Total value="50" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A dense loaf traditionally consumed by soaking in stout" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_firedbricks" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Fired Bricks" />
+      <Tier value="2" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="3" />
+      <Value value="270" />
+      <CraftingRecipe>
+        <Good value="good_stone" />
+        <Good value="good_stone" />
+        <Good value="good_stone" />
+        <Good value="good_stone" />
+        <Good value="good_stone" />
+        <Value>
+          <Total value="90" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="An upscale brick for rich folks that look down on red bricks as plebian. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_whiskey" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Whiskey" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="108" />
+      <CraftingRecipe>
+        <Good value="good_barrel" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="54" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Aged to maturity in artisanal black oak barrels, a single sip will burn your socks off. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_chair" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Chair" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="132" />
+      <CraftingRecipe>
+        <Good value="good_barrel" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="66" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Have a seat. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_jewelrybox" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Jewelry Box" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="148" />
+      <CraftingRecipe>
+        <Good value="good_barrel" />
+        <Good value="good_gems" />
+        <Value>
+          <Total value="74" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The lock on the intricate box promises more than the costume jewelry. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_desk" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Desk" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="196" />
+      <CraftingRecipe>
+        <Good value="good_oak" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="98" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="This classic desk was popularized in the Elder Puddingham era.  No assembly required because flan are not (and never will be) Swedish. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_incense" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Incense" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="222" />
+      <CraftingRecipe>
+        <Good value="good_oak" />
+        <Good value="good_perfume" />
+        <Value>
+          <Total value="111" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Legalized in three states" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_rockhammers" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Rock Hammers" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="228" />
+      <CraftingRecipe>
+        <Good value="good_oak" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="114" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Hammer for bashing rock. Used by the workers to the east that lost their jobs and families to the illness with no cure. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_beer" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Beer" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="140" />
+      <CraftingRecipe>
+        <Good value="good_bread" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="70" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A well hopped ale" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_fruitcake" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Fruit Cake" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="190" />
+      <CraftingRecipe>
+        <Good value="good_bread" />
+        <Good value="good_perfume" />
+        <Value>
+          <Total value="95" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Sometimes we give bad gifts because we care too much to give fragile feeling form. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_cinnamonrolls" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Cinnamon Rolls" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="176" />
+      <CraftingRecipe>
+        <Good value="good_bread" />
+        <Good value="good_spices" />
+        <Value>
+          <Total value="88" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="My fingers are so sticky. Are your fingers sticky too?  Even If you lick them, they don't stop being sticky. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_catstatue" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Cat Statue" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="224" />
+      <CraftingRecipe>
+        <Good value="good_bricks" />
+        <Good value="good_gems" />
+        <Value>
+          <Total value="112" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="This was once a real cat, but then it was soaked in a special varnish. Now you can pet Fluffy forever. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_metalingot" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Metal Ingot" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="240" />
+      <CraftingRecipe>
+        <Good value="good_bricks" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="120" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The poor sell their fillings to be melted into ingots" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_curry" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Curry" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="220" />
+      <CraftingRecipe>
+        <Good value="good_bricks" />
+        <Good value="good_spices" />
+        <Value>
+          <Total value="110" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value=" 'The only way to enjoy spicy food is on the way in' -Flannish proverb" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_chowder" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Chowder" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="250" />
+      <CraftingRecipe>
+        <Good value="good_stew" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="125" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="This was the meal that the fisherman ate the night before he was lost at sea. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_grog" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Grog" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="226" />
+      <CraftingRecipe>
+        <Good value="good_stew" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="113" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A seafarer's concoction made of weak beer, rum and a dash of lemon to chase off the scurvy. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_chili" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Chili" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="262" />
+      <CraftingRecipe>
+        <Good value="good_stew" />
+        <Good value="good_spices" />
+        <Value>
+          <Total value="131" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A hearty southern meal made from beans and locals that did not pay their royal taxes. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_windows" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Windows" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="290" />
+      <CraftingRecipe>
+        <Good value="good_glass" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="145" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="An outdated product whose rudderless inventor is likely to go bankrupt in the next decade. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_spyglass" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Spyglass" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="306" />
+      <CraftingRecipe>
+        <Good value="good_glass" />
+        <Good value="good_gems" />
+        <Value>
+          <Total value="153" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="In a well ordered society, it is a neighbor's duty to report unseemly details with great gusto.  The spyglass is merely a facilitator. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_finebrandy" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Fine Brandy" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="266" />
+      <CraftingRecipe>
+        <Good value="good_glass" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="133" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Now that cigars are banned in public places, consumption of brandy has doubled. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_crockpot" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Crockpot" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="348" />
+      <CraftingRecipe>
+        <Good value="good_cookedfood" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="174" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="All good moments in life can be slowly stewed in a crockpot.  Lift the lid, inhale and remember everything. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_lembascakes" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Lembas Cakes" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="316" />
+      <CraftingRecipe>
+        <Good value="good_cookedfood" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="158" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="An English crisp." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_luxuryfood" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Luxury Food" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="332" />
+      <CraftingRecipe>
+        <Good value="good_cookedfood" />
+        <Good value="good_gems" />
+        <Value>
+          <Total value="166" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The sort of plated meal a well off bachelor orders when attempting to impress an ingenue" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_glue" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Glue" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="266" />
+      <CraftingRecipe>
+        <Good value="good_flour" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="133" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Sniffless and extremely capable of non-emotional bonding. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_Firebread" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Fire Bread" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="278" />
+      <CraftingRecipe>
+        <Good value="good_flour" />
+        <Good value="good_spices" />
+        <Value>
+          <Total value="139" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Baked by lighting a tiny fire inside a bread crust cavity.  Eaten by families on Saturday nights. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_FineFlour" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Fine Flour" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="298" />
+      <CraftingRecipe>
+        <Good value="good_flour" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="149" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="When cooking pastries only the silkiest baking flour will prevent the chef from smacking you and yelling 'Dolt!'" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_sweetwine" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Sweet Wine" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="393" />
+      <CraftingRecipe>
+        <Good value="good_spices" />
+        <Good value="good_spirits" />
+        <Good value="good_perfume" />
+        <Value>
+          <Total value="157" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Wine bewitched with the sweet tears of mispent youth. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_rowboat" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Rowboat" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="385" />
+      <CraftingRecipe>
+        <Good value="good_lumber" />
+        <Good value="good_spirits" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="154" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value=" 'This stealthy rowboat is surprisingly useful if you need to get rid of a body.' Sales brochure, selling point #3. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_haircream" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Hair Cream" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="398" />
+      <CraftingRecipe>
+        <Good value="good_gems" />
+        <Good value="good_spirits" />
+        <Good value="good_perfume" />
+        <Value>
+          <Total value="159" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The simple fact that you do not possess this amazing hair-styling product explains everything that has gone wrong with your life. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_firering" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Fire Ring" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="740" />
+      <CraftingRecipe>
+        <Good value="good_rings" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="370" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A ring of fire.  It burns, burns, burns. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_poisonring" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Poison Ring" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="716" />
+      <CraftingRecipe>
+        <Good value="good_rings" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="358" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="When slipped upon a finger, a single twist releases a venom that makes you appear dead for 12 hours. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_stonering" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Stone Ring" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="772" />
+      <CraftingRecipe>
+        <Good value="good_rings" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="386" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The sort of thing an insecure man wears in order to pretend that they aren't wearing jewelry." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_firenecklace" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Fire Necklace" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="1060" />
+      <CraftingRecipe>
+        <Good value="good_necklace" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="530" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Traditional dress of the high governors that stoke the fire tower flames.  " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_poisonnecklace" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Poison Necklace" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="1036" />
+      <CraftingRecipe>
+        <Good value="good_necklace" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="518" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="All you need to do is hug your victim.  Please observe that the needles face outward. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_stonenecklace" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Stone Necklace" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="1092" />
+      <CraftingRecipe>
+        <Good value="good_necklace" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="546" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Recommended fashion for thick necked individuals with sloping shoulders. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_crystalshield" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Crystal Shield" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="1790" />
+      <CraftingRecipe>
+        <Good value="good_shields" />
+        <Good value="good_glass" />
+        <Value>
+          <Total value="895" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A shield you can hide behind and still see where you are going.  Two handed" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_spiritshield" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Spirit Shield" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="1750" />
+      <CraftingRecipe>
+        <Good value="good_shields" />
+        <Good value="good_stew" />
+        <Value>
+          <Total value="875" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A shield imbued with expensive cantrips to block the ghost of your mother from seeing what you are doing with your life." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_stealthshield" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Stealth Shield" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="1766" />
+      <CraftingRecipe>
+        <Good value="good_shields" />
+        <Good value="good_flour" />
+        <Value>
+          <Total value="883" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="This shield doesn't clank about like all the other shields.  Stupid clanking shields. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_ice" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Ice" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="3" />
+      <Value value="1125" />
+      <CraftingRecipe>
+        <Good value="good_largebarrel" />
+        <Good value="good_largebarrel" />
+        <Good value="good_largebarrel" />
+        <Good value="good_largebarrel" />
+        <Good value="good_largebarrel" />
+        <Value>
+          <Total value="375" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A little bundle of chilled evil.  Don't let it escape. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_finelumber" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Fine Lumber" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="2.2" />
+      <Value value="2068" />
+      <CraftingRecipe>
+        <Good value="good_blackoak" />
+        <Good value="good_blackoak" />
+        <Good value="good_blackoak" />
+        <Good value="good_blackoak" />
+        <Good value="good_blackoak" />
+        <Value>
+          <Total value="940" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Those with a friend who is into carpentry, should give this as a present" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_breadpudding" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Bread Pudding" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="3" />
+      <Value value="2250" />
+      <CraftingRecipe>
+        <Good value="good_blackbread" />
+        <Good value="good_blackbread" />
+        <Good value="good_blackbread" />
+        <Good value="good_blackbread" />
+        <Good value="good_blackbread" />
+        <Value>
+          <Total value="750" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Behold. Light cream drizzled over warm breadpudding.  Heaven awaits." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_pottery" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Pottery" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="3375" />
+      <CraftingRecipe>
+        <Good value="good_firedbricks" />
+        <Good value="good_firedbricks" />
+        <Good value="good_firedbricks" />
+        <Good value="good_firedbricks" />
+        <Good value="good_firedbricks" />
+        <Value>
+          <Total value="1350" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A child, age 5, broke the last one.  Replica pottery ensures that his step-father will never find out. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_stoutbarrel" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Stout Barrel" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="250" />
+      <CraftingRecipe>
+        <Good value="good_largebarrel" />
+        <Good value="good_lumber" />
+        <Value>
+          <Total value="125" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="This barrel prefers the term 'stout'  over diminutive titles like 'tiny' or 'dwarven' " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_blackwhiskey" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Black Whiskey" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="452" />
+      <CraftingRecipe>
+        <Good value="good_blackoak" />
+        <Good value="good_spirits" />
+        <Value>
+          <Total value="226" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Duke Elba sold his soul to the Ice Witch for one stiff drink. This is what he quaffed. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_ironrations" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Iron Rations" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="432" />
+      <CraftingRecipe>
+        <Good value="good_blackbread" />
+        <Good value="good_ore" />
+        <Value>
+          <Total value="216" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The last warriors of the Flannish took these rations on their suicide mission to vanquish the spirit lords.  There are no more warrior flan. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_prayerstones" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Prayer Stones" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="666" />
+      <CraftingRecipe>
+        <Good value="good_firedbricks" />
+        <Good value="good_perfume" />
+        <Value>
+          <Total value="333" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Yes, these prayer stones are made of foam, but it is certified blessed foam. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_stewbarrel" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Stew Barrel" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="300" />
+      <CraftingRecipe>
+        <Good value="good_largebarrel" />
+        <Good value="good_stew" />
+        <Value>
+          <Total value="150" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="This is what happens when you cook a barrel of monkeys " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_deathpowder" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Death Powder" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="566" />
+      <CraftingRecipe>
+        <Good value="good_blackoak" />
+        <Good value="good_glass" />
+        <Value>
+          <Total value="283" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Produced by crushing dried mushrooms into powder.  A single pinch can aphyxiate a room. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_heartymeals" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Hearty Meals" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="516" />
+      <CraftingRecipe>
+        <Good value="good_blackbread" />
+        <Good value="good_cookedfood" />
+        <Value>
+          <Total value="258" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A meal for flan that require two seats when traveling coach. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_flatbread" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Flatbread" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="706" />
+      <CraftingRecipe>
+        <Good value="good_firedbricks" />
+        <Good value="good_flour" />
+        <Value>
+          <Total value="353" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The famous chef Rotoschooni made this dish for the Princess when he first cooked for her.  They eloped that night. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_dullamulet" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Dull Amulet" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="2600" />
+      <CraftingRecipe>
+        <Good value="good_firenecklace" />
+        <Good value="good_metalingot" />
+        <Value>
+          <Total value="1300" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="An amulet for the flan that does not need to flaunt their immense wealth. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_dullsceptre" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Dull Sceptre" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="2352" />
+      <CraftingRecipe>
+        <Good value="good_poisonnecklace" />
+        <Good value="good_beer" />
+        <Value>
+          <Total value="1176" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="On the backside of this nondescript scepter is a spout that dispenses black whiskey. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_dullcrown" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Dull Crown" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="2640" />
+      <CraftingRecipe>
+        <Good value="good_stonenecklace" />
+        <Good value="good_rockhammers" />
+        <Value>
+          <Total value="1320" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The dour workers of the stony west fear reflections so they scuff their metal and break all foreign mirrors. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_glowingamulet" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Glowing Amulet" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="5715" />
+      <CraftingRecipe>
+        <Good value="good_crystalshield" />
+        <Good value="good_potionoflife" />
+        <Good value="good_potionofdeath" />
+        <Value>
+          <Total value="2286" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The reverse of this pendant states 'In times of need, seek the glow of friends'" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_glowingsceptre" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Glowing Sceptre" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="5345" />
+      <CraftingRecipe>
+        <Good value="good_spiritshield" />
+        <Good value="good_idols" />
+        <Good value="good_shrines" />
+        <Value>
+          <Total value="2138" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="An inscription on the side of the scepter reads 'By working together, greatness is inevitable'" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_glowingcrown" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Glowing Crown" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="6300" />
+      <CraftingRecipe>
+        <Good value="good_stealthshield" />
+        <Good value="good_mulledwine" />
+        <Good value="good_deathpowder" />
+        <Value>
+          <Total value="2520" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Glowing words ring the band, spelling out 'Alone, you are nothing.'" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_shadowamulet" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Shadow Amulet" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="5963" />
+      <CraftingRecipe>
+        <Good value="good_crystalshield" />
+        <Good value="good_potionofjoy" />
+        <Good value="good_sweetwine" />
+        <Value>
+          <Total value="2385" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Minions sworn to the creeping ice wear such amulet to keep the heat of love at bay." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_shadowsceptre" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Shadow Sceptre" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="5858" />
+      <CraftingRecipe>
+        <Good value="good_spiritshield" />
+        <Good value="good_gunpowder" />
+        <Good value="good_rowboat" />
+        <Value>
+          <Total value="2343" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The first of the ice lords created this vile device from an inky pool of bitterness." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_shadowcrown" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Shadow Crown" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="6005" />
+      <CraftingRecipe>
+        <Good value="good_stealthshield" />
+        <Good value="good_potionoflife" />
+        <Good value="good_haircream" />
+        <Value>
+          <Total value="2402" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="If you ever stumble upon a shadow crown, burn it with fire.  The world hangs in balance. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_icestatue" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Ice Statue" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="1.2" />
+      <Value value="6750" />
+      <CraftingRecipe>
+        <Good value="good_ice" />
+        <Good value="good_ice" />
+        <Good value="good_ice" />
+        <Good value="good_ice" />
+        <Good value="good_ice" />
+        <Value>
+          <Total value="5625" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Amelia Plumson, an artist of great renown, died. Her last wish was to send a last message.  This melting statue was found on her daughter's doorstep. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_woodstatue" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Wood Statue" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="1.2" />
+      <Value value="12408" />
+      <CraftingRecipe>
+        <Good value="good_finelumber" />
+        <Good value="good_finelumber" />
+        <Good value="good_finelumber" />
+        <Good value="good_finelumber" />
+        <Good value="good_finelumber" />
+        <Value>
+          <Total value="10340" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The sculptor of this carving was inspired by a time when he was lost in the subway.  A lady with ladybug boots gave him an apple and led him home. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_chocolatestatue" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Chocolate Statue" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="1.2" />
+      <Value value="13500" />
+      <CraftingRecipe>
+        <Good value="good_breadpudding" />
+        <Good value="good_breadpudding" />
+        <Good value="good_breadpudding" />
+        <Good value="good_breadpudding" />
+        <Good value="good_breadpudding" />
+        <Value>
+          <Total value="11250" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="All good things are made of chocolate. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_porcelainstatue" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Porcelain Statue" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="1.2" />
+      <Value value="20250" />
+      <CraftingRecipe>
+        <Good value="good_pottery" />
+        <Good value="good_pottery" />
+        <Good value="good_pottery" />
+        <Good value="good_pottery" />
+        <Good value="good_pottery" />
+        <Value>
+          <Total value="16875" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The nation came together to create this great work.  The pride you feel comes from the bonds you built. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_glowingshield" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Glowing Shield" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="5915" />
+      <CraftingRecipe>
+        <Good value="good_crystalshield" />
+        <Good value="good_mana" />
+        <Good value="good_mana" />
+        <Value>
+          <Total value="2366" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Friends shield us from loneliness like children shield politicians" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_absinthe" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Absinthe" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="1860" />
+      <CraftingRecipe>
+        <Good value="good_finebrandy" />
+        <Good value="good_mana" />
+        <Good value="good_fruitcake" />
+        <Value>
+          <Total value="744" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="No one knows the secret hallucinagenic ingredients of this madman's liquor. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_manaorb" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Mana Orb" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="2880" />
+      <CraftingRecipe>
+        <Good value="good_mana" />
+        <Good value="good_mana" />
+        <Good value="good_mana" />
+        <Good value="good_mana" />
+        <Good value="good_mana" />
+        <Value>
+          <Total value="1440" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Looks great on a lawn" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_stickybuns" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Sticky Buns" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="1825" />
+      <CraftingRecipe>
+        <Good value="good_glue" />
+        <Good value="good_mana" />
+        <Good value="good_cinnamonrolls" />
+        <Value>
+          <Total value="730" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="If children eat this treat with their fingers, they gain the magical ability to climb walls. While giggling maniacly." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_pinkflamingo" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Pink Flamingo" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="1.2" />
+      <Value value="17280" />
+      <CraftingRecipe>
+        <Good value="good_manaorb" />
+        <Good value="good_manaorb" />
+        <Good value="good_manaorb" />
+        <Good value="good_manaorb" />
+        <Good value="good_manaorb" />
+        <Value>
+          <Total value="14400" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Looks so much better than a mana orb.  Dear neighbor, &quot;How about them apples?&quot; " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_sundial" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Sundial" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="2812" />
+      <CraftingRecipe>
+        <Good value="good_firering" />
+        <Good value="good_prayerstones" />
+        <Value>
+          <Total value="1406" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Time, like a rampaging herd of wild stallions, leaves behind an amazing quantity of poop. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_hammeroftime" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Hammer of Time" />
+      <Tier value="5" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="9530" />
+      <CraftingRecipe>
+        <Good value="good_hammers" />
+        <Good value="good_sundial" />
+        <Value>
+          <Total value="3812" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Stop. Hammered by time. Break me down. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_sparkypants" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Sparky Pants" />
+      <Tier value="6" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="25138" />
+      <CraftingRecipe>
+        <Good value="good_hammeroftime" />
+        <Good value="good_necklace" />
+        <Good value="good_diamond" />
+        <Value>
+          <Total value="10055" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="If you must one day put on some pants...make them sparky pants" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_dullarmor" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Dull Armor" />
+      <Tier value="5" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="18980" />
+      <CraftingRecipe>
+        <Good value="good_dullsceptre" />
+        <Good value="good_dullamulet" />
+        <Good value="good_dullcrown" />
+        <Value>
+          <Total value="7592" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Hide from the world inside this tiny dull space.  No one can poke you now. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_glowingarmor" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Glowing Armor" />
+      <Tier value="5" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="43400" />
+      <CraftingRecipe>
+        <Good value="good_glowingsceptre" />
+        <Good value="good_glowingamulet" />
+        <Good value="good_glowingcrown" />
+        <Value>
+          <Total value="17360" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Every person who loves you (or your luxuriant hair) decreases your AC by 1. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_shadowarmor" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Shadow Armor" />
+      <Tier value="5" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="2.5" />
+      <Value value="44565" />
+      <CraftingRecipe>
+        <Good value="good_shadowsceptre" />
+        <Good value="good_shadowamulet" />
+        <Good value="good_shadowcrown" />
+        <Value>
+          <Total value="17826" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="This is the stuff that makes evil robots impervious to bullets." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_bracelet" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Bracelet" />
+      <Tier value="3" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="3200" />
+      <CraftingRecipe>
+        <Good value="good_rings" />
+        <Good value="good_rings" />
+        <Good value="good_rings" />
+        <Good value="good_rings" />
+        <Good value="good_rings" />
+        <Value>
+          <Total value="1600" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Elegance is a small band that accents the sweet bones of the youthful wrist." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_armparty" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Arm Party" />
+      <Tier value="4" />
+      <BaseValue value="0" />
+      <NumIngredients value="5" />
+      <RecipeValueMultiplier value="2" />
+      <Value value="32000" />
+      <CraftingRecipe>
+        <Good value="good_bracelet" />
+        <Good value="good_bracelet" />
+        <Good value="good_bracelet" />
+        <Good value="good_bracelet" />
+        <Good value="good_bracelet" />
+        <Value>
+          <Total value="16000" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="Past a certain age, it is wise to trade elegance for &quot;Hey, stop looking at my wrinkles.&quot;" />
+    </GOOD>
+    <GOOD>
+      <Key value="good_writofseduction" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Writ of Seduction" />
+      <Tier value="5" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="1.5" />
+      <Value value="51335" />
+      <CraftingRecipe>
+        <Good value="good_armparty" />
+        <Good value="good_haircream" />
+        <Good value="good_stickybuns" />
+        <Value>
+          <Total value="34223" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="A warrior of modern romance knows that the True Love sometimes needs a small kick forward." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_glowingstatue" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Glowing Statue" />
+      <Tier value="5" />
+      <BaseValue value="0" />
+      <NumIngredients value="3" />
+      <RecipeValueMultiplier value="1.8" />
+      <Value value="22955" />
+      <CraftingRecipe>
+        <Good value="good_icestatue" />
+        <Good value="good_mana" />
+        <Good value="good_glowingamulet" />
+        <Value>
+          <Total value="12753" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="My loved one died.  Please remember her. " />
+    </GOOD>
+    <GOOD>
+      <Key value="good_crownedstatue" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Crowned Statue" />
+      <Tier value="5" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="1.7" />
+      <Value value="31804" />
+      <CraftingRecipe>
+        <Good value="good_woodstatue" />
+        <Good value="good_glowingcrown" />
+        <Value>
+          <Total value="18708" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The carved crown was so stunning that his people remembered him as a hero, not a drunk." />
+    </GOOD>
+    <GOOD>
+      <Key value="good_blackheart" />
+      <Type value="goodtype_crafted" />
+      <DisplayName value="Black Heart" />
+      <Tier value="5" />
+      <BaseValue value="0" />
+      <NumIngredients value="2" />
+      <RecipeValueMultiplier value="1.30943" />
+      <Value value="100000" />
+      <CraftingRecipe>
+        <Good value="good_crownedstatue" />
+        <Good value="good_shadowarmor" />
+        <Value>
+          <Total value="76369" />
+        </Value>
+      </CraftingRecipe>
+      <Active value="TRUE" />
+      <Description value="The shriveled heart of a flan that did not play nicely with others" />
+    </GOOD>
+  </GOODS>
+</ROOT>
+
